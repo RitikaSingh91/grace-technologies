@@ -1,0 +1,115 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xl);
+  background: var(--color-card);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.7rem;
+  padding: 0 1.3rem 1.4rem;
+}
+
+.title {
+  margin: 0;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.service {
+  margin: 0;
+  color: var(--color-accent-1);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title,
+.service {
+  width: 100%;
+}
+
+.description {
+  margin: 0;
+  color: var(--color-muted);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.detail,
+.caseStudy p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.caseStudy {
+  display: grid;
+  grid-template-rows: auto repeat(3, minmax(78px, auto));
+  gap: 0.55rem;
+}
+
+.caseStudy h4 {
+  margin: 0;
+}
+
+.caseStudy p {
+  margin: 0.15rem 0 0;
+  color: var(--color-muted);
+}
+
+.facts {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 0.5rem;
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.facts > div {
+  min-height: 78px;
+}
+
+.term {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent-1);
+}
+
+.detail {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: min(100%, 28rem);
+  margin: auto auto 0;
+  padding-top: 0.8rem;
+}
+
+.actionButton {
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.related {
+  color: var(--color-accent-1);
+}

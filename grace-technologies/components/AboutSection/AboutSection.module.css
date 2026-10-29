@@ -1,0 +1,20 @@
+.title {
+  margin-bottom: 1rem;
+  font-size: clamp(1.9rem, 3.6vw, 2.8rem);
+}
+
+.text {
+  color: var(--color-muted);
+}
+
+.text + .text {
+  margin-top: 0.8rem;
+}
+
+.pillars {
+  margin-top: 1.6rem;
+}
+
+.art svg {
+  filter: drop-shadow(0 20px 40px var(--color-glow-shadow));
+}

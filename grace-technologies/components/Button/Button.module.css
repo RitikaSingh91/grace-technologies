@@ -1,0 +1,66 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.85rem 1.5rem;
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-pill);
+  background: none;
+  color: inherit;
+  font: 600 0.96rem var(--font-body);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.25s,
+    filter 0.25s,
+    background 0.25s;
+}
+
+.button:hover {
+  filter: brightness(1.08);
+  transform: translateY(-2px);
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+.button svg {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.primary {
+  background: var(--gradient-accent);
+  color: var(--color-bg);
+}
+
+.ghost {
+  border-color: var(--color-field);
+  color: var(--color-text);
+}
+
+.ghost:hover {
+  background: var(--tint-08);
+}
+
+.sm {
+  padding: 0.65rem 1.1rem;
+  font-size: 0.9rem;
+}
+
+.compact {
+  height: 2.5rem;
+  padding: 0 1.3rem;
+  font-size: 0.93rem;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+@media (min-width: 901px) and (max-width: 1060px) {
+  .compact {
+    padding: 0 1rem;
+  }
+}

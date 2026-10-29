@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.small {
+  gap: 0.45rem;
+  font-size: 0.9rem;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+
+.item svg {
+  width: 1.05em;
+  height: 1.05em;
+  margin-top: 0.28em;
+  color: var(--color-accent-1);
+}

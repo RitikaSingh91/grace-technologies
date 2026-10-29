@@ -1,0 +1,8 @@
+.notice {
+  margin-top: 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--color-accent-1);
+  border-radius: 0 14px 14px 0;
+  background: var(--color-accent-1-faint);
+  font-size: 0.97rem;
+}

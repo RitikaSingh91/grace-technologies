@@ -1,0 +1,12 @@
+.logo {
+  display: block;
+  height: 4.4rem;
+  aspect-ratio: 1256 / 1462;
+  background-color: var(--color-text);
+  -webkit-mask: url('/assets/images/logo.svg') center / contain no-repeat;
+  mask: url('/assets/images/logo.svg') center / contain no-repeat;
+}
+
+.large {
+  height: 9rem;
+}

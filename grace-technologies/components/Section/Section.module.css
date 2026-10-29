@@ -1,0 +1,8 @@
+.section {
+  padding: clamp(4rem, 9vw, 7rem) 0;
+}
+
+.alt {
+  background: var(--color-bg-alt);
+  border-block: 1px solid var(--color-line);
+}

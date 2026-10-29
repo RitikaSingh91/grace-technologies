@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xl);
+  background: var(--color-card);
+  transition:
+    border-color 0.3s,
+    transform 0.3s;
+}
+
+.card:hover {
+  border-color: var(--color-accent-1);
+  transform: translateY(-4px);
+}
+
+.band {
+  padding: 1.4rem 1.4rem 0;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.4rem;
+}
+
+.title {
+  font-size: 1.35rem;
+}
+
+.text {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+}
+
+.more {
+  margin-top: auto;
+  align-self: flex-start;
+}

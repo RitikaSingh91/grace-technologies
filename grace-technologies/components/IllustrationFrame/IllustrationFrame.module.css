@@ -1,0 +1,6 @@
+.frame {
+  margin: 1rem;
+  padding: 0.8rem;
+  border-radius: 18px;
+  background: var(--tint-03);
+}

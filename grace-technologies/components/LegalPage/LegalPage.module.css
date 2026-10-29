@@ -1,0 +1,21 @@
+.page {
+  padding: clamp(2.5rem, 6vw, 5rem) 0 clamp(3rem, 7vw, 6rem);
+}
+
+.title {
+  font-size: clamp(2.4rem, 5.4vw, 4.4rem);
+}
+
+.content {
+  max-width: 46rem;
+}
+
+.heading {
+  margin: 2rem 0 0.6rem;
+  font-size: 1.4rem;
+}
+
+.text {
+  margin-bottom: 0.8rem;
+  color: var(--color-muted);
+}

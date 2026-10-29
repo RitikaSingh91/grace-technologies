@@ -1,0 +1,36 @@
+/* Colours are read from the global tokens in app/globals.css. */
+.art {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.glass {
+  fill: var(--tint-08);
+  stroke: var(--tint-20);
+  stroke-width: 1.5;
+}
+
+.fill10 { fill: var(--tint-10); }
+.fill20 { fill: var(--tint-20); }
+.fill24 { fill: var(--tint-24); }
+.fill30 { fill: var(--tint-30); }
+.fill40 { fill: var(--tint-40); }
+.stroke50 { stroke: var(--tint-50); }
+.stroke70 { stroke: var(--tint-70); }
+.stopStart { stop-color: var(--color-accent-1); }
+.stopEnd { stop-color: var(--color-accent-2); }
+.fillAccent2 { fill: var(--color-accent-2); }
+.strokeBg { stroke: var(--color-bg); }
+
+.float1 { animation: float 7s ease-in-out infinite; }
+.float2 { animation: float 8s ease-in-out -2s infinite; }
+.float3 { animation: float 9s ease-in-out -4s infinite; }
+.float4 { animation: float 7.5s ease-in-out -1s infinite; }
+
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}

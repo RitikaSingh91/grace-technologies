@@ -1,0 +1,127 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: var(--color-overlay);
+}
+
+.modal[hidden] {
+  display: none;
+}
+
+.dialog {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  max-height: none;
+  overflow: visible;
+  padding: 1.25rem;
+  border: 1px solid var(--color-line);
+  border-radius: 22px;
+  background: var(--color-bg-alt);
+  color: var(--color-text);
+}
+
+.title {
+  margin-bottom: 0.3rem;
+  padding-right: 2.6rem;
+  font-size: 1.5rem;
+}
+
+.intro {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 1.5px solid var(--color-field);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.close svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.form {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.input {
+  padding: 0.55rem 0.75rem;
+  border: 1.5px solid var(--color-field);
+  border-radius: 10px;
+  background: var(--color-field-bg);
+  color: var(--color-text);
+  font: inherit;
+  font-weight: 400;
+}
+
+.message {
+  min-height: 3.8rem;
+  resize: none;
+}
+
+.input[aria-invalid='true'] {
+  border-color: var(--color-danger);
+}
+
+.error {
+  min-height: 0;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--color-danger);
+}
+
+.status {
+  min-height: 0;
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-accent-1);
+}
+
+.status:empty {
+  display: none;
+}
+
+.error:empty {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .dialog {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .intro {
+    margin-bottom: 0.6rem;
+  }
+}

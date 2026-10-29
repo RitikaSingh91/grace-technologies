@@ -1,0 +1,13 @@
+.crumb {
+  margin-bottom: 1rem;
+  font-size: 0.88rem;
+  color: var(--color-muted);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-text);
+}

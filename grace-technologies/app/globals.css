@@ -1,0 +1,139 @@
+/* ==========================================================================
+   Grace Technologies: global design tokens and base styles.
+
+   THIS IS THE ONLY FILE THAT CONTAINS COLOUR VALUES.
+   Every component stylesheet (*.module.css) and every TSX file reads colours
+   through the CSS variables below. Change a value here and the whole site
+   updates.
+   ========================================================================== */
+
+:root {
+  /* ---- Base palette ---------------------------------------------------- */
+  --color-bg: #0a0f1f;
+  --color-bg-alt: #0f1730;
+  --color-text: #e8eeff;
+  --color-muted: #9faacb;
+  --color-accent-1: #5eead4;
+  --color-accent-2: #8b7cff;
+  --color-danger: #ff8fa3;
+  --color-white: #ffffff;
+  --color-scrim: #040710;
+
+  /* Illustration palette (used by the SVG illustrations) */
+  --color-illu-line: #7c8cff;
+  --color-illu-surface: #151d3b;
+  --color-illu-soft: #26305e;
+
+  /* ---- Semantic colours ------------------------------------------------ */
+  --color-focus: var(--color-accent-1);
+  --color-field-bg: var(--color-bg);
+
+  /* ---- White tints (derived from --color-white) ------------------------ */
+  --tint-03: color-mix(in srgb, var(--color-white) 3%, transparent);
+  --tint-05: color-mix(in srgb, var(--color-white) 5%, transparent);
+  --tint-08: color-mix(in srgb, var(--color-white) 8%, transparent);
+  --tint-10: color-mix(in srgb, var(--color-white) 10%, transparent);
+  --tint-14: color-mix(in srgb, var(--color-white) 14%, transparent);
+  --tint-20: color-mix(in srgb, var(--color-white) 20%, transparent);
+  --tint-24: color-mix(in srgb, var(--color-white) 24%, transparent);
+  --tint-30: color-mix(in srgb, var(--color-white) 30%, transparent);
+  --tint-40: color-mix(in srgb, var(--color-white) 40%, transparent);
+  --tint-50: color-mix(in srgb, var(--color-white) 50%, transparent);
+  --tint-70: color-mix(in srgb, var(--color-white) 70%, transparent);
+
+  --color-line: var(--tint-14);
+  --color-card: var(--tint-05);
+  --color-field: var(--tint-40);
+
+  /* ---- Accent tints and glows (derived from the accents) --------------- */
+  --color-accent-1-soft: color-mix(in srgb, var(--color-accent-1) 14%, transparent);
+  --color-accent-1-faint: color-mix(in srgb, var(--color-accent-1) 8%, transparent);
+  --color-glow-1: color-mix(in srgb, var(--color-accent-1) 16%, transparent);
+  --color-glow-2: color-mix(in srgb, var(--color-accent-2) 26%, transparent);
+  --color-glow-shadow: color-mix(in srgb, var(--color-accent-2) 25%, transparent);
+  --color-cta-start: color-mix(in srgb, var(--color-accent-1) 16%, transparent);
+  --color-cta-end: color-mix(in srgb, var(--color-accent-2) 24%, transparent);
+  --color-header: color-mix(in srgb, var(--color-bg) 74%, transparent);
+  --color-overlay: color-mix(in srgb, var(--color-scrim) 74%, transparent);
+
+  --gradient-accent: linear-gradient(90deg, var(--color-accent-1), var(--color-accent-2));
+  --gradient-accent-diagonal: linear-gradient(135deg, var(--color-accent-1), var(--color-accent-2));
+
+  /* ---- Typography ------------------------------------------------------ */
+  --font-heading: var(--font-space-grotesk), 'Space Grotesk', system-ui, sans-serif;
+  --font-body: var(--font-outfit), Outfit, system-ui, sans-serif;
+
+  /* ---- Shape and layout ------------------------------------------------ */
+  --radius-pill: 999px;
+  --radius-xl: 24px;
+  --radius-lg: 20px;
+  --radius-md: 16px;
+  --max-width: 1180px;
+  --gutter: clamp(1.1rem, 3.5vw, 2rem);
+}
+
+/* ---- Base ------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  font: 400 1.05rem/1.65 var(--font-body);
+  color: var(--color-text);
+  background:
+    radial-gradient(900px 520px at 88% -4%, var(--color-glow-2), transparent 60%),
+    radial-gradient(700px 520px at 0% 8%, var(--color-glow-1), transparent 60%),
+    var(--color-bg);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

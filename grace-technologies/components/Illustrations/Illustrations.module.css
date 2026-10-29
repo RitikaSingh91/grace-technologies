@@ -1,0 +1,23 @@
+/* Illustration colours: palette tokens from app/globals.css. Order matters: .line must come after the fills. */
+.illustration {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.accent { fill: var(--color-illu-line); }
+.surface { fill: var(--color-illu-surface); }
+.inner { fill: var(--color-bg); }
+.soft { fill: var(--color-illu-soft); }
+.surfaceStroke {
+  stroke: var(--tint-14);
+  stroke-width: 2;
+}
+.line {
+  fill: none;
+  stroke: var(--color-illu-line);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.dashed { stroke-dasharray: 2 9; }

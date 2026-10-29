@@ -1,0 +1,10 @@
+.tag {
+  display: inline-block;
+  justify-self: start;
+  padding: 0.15rem 0.7rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-1-soft);
+  color: var(--color-accent-1);
+  font-size: 0.76rem;
+  font-weight: 600;
+}

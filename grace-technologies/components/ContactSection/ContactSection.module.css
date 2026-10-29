@@ -1,0 +1,25 @@
+.section { padding: clamp(4rem, 9vw, 7rem) 0; border-block: 1px solid var(--color-line); background: var(--color-bg-alt); }
+.container { width: min(calc(100% - (2 * var(--gutter))), var(--max-width)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.75fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.form { padding: 1.5rem; border: 1px solid var(--color-line); border-radius: var(--radius-xl); background: var(--color-card); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.field { display: grid; gap: 0.45rem; }
+.field label { font-size: 0.9rem; font-weight: 700; }
+.field input, .field textarea { width: 100%; padding: 0.75rem 0.85rem; border: 1px solid var(--color-field); border-radius: 10px; background: var(--color-field-bg); color: var(--color-text); font: inherit; }
+.field textarea { resize: vertical; }
+.full { grid-column: 1 / -1; }
+.footer { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+.submit, .consultation { min-height: 46px; padding: 0.75rem 1.35rem; border: 0; border-radius: var(--radius-pill); background: var(--gradient-accent); color: var(--color-bg); font: 600 0.96rem var(--font-body); cursor: pointer; }
+.consultation { margin-top: 1.4rem; background: transparent; border: 1.5px solid var(--color-field); color: var(--color-text); }
+.status { color: var(--color-muted); font-size: 0.88rem; }
+.status:empty { display: none; }
+.honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.introduction { align-self: center; }
+.eyebrow { margin-bottom: 0.65rem; color: var(--color-accent-1); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+.title { margin-bottom: 1rem; font-size: clamp(1.9rem, 3.6vw, 2.8rem); }
+.text { color: var(--color-muted); }
+.information { display: grid; gap: 1rem; margin-top: 1.4rem; font-style: normal; }
+.information > div { display: grid; gap: 0.15rem; }
+.label { color: var(--color-muted); font-size: 0.78rem; font-weight: 700; }
+.email { color: var(--color-accent-1); }
+@media (max-width: 900px) { .container { grid-template-columns: 1fr; } .introduction { grid-row: 1; } }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } .full { grid-column: auto; } .footer { align-items: flex-start; flex-direction: column; } }

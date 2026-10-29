@@ -1,0 +1,33 @@
+.item {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+
+.question::-webkit-details-marker {
+  display: none;
+}
+
+.question::after {
+  content: '+';
+  color: var(--color-accent-1);
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.item[open] .question::after {
+  content: '\2212';
+}
+
+.answer {
+  margin-top: 0.6rem;
+  color: var(--color-muted);
+}

@@ -1,0 +1,13 @@
+.head {
+  max-width: 42rem;
+  margin-bottom: 2.6rem;
+}
+
+.title {
+  font-size: clamp(1.9rem, 3.8vw, 3rem);
+}
+
+.text {
+  margin-top: 0.9rem;
+  color: var(--color-muted);
+}

@@ -1,0 +1,806 @@
+{
+ "SVC": {
+  "web-mobile-development": {
+   "k": "web",
+   "icon": "Language",
+   "title": "Web Development and Mobile App Development",
+   "nav": "Web and Mobile Development",
+   "short": "Custom websites, web applications and iOS and Android apps built for performance and growth.",
+   "lead": "Websites and apps that present your business clearly, work on every device and are easy to maintain.",
+   "intro": [
+    "We design and build websites, web applications and mobile apps for businesses that need a dependable digital presence. Our work ranges from a corporate website to a customer portal or a mobile app.",
+    "Every project starts with your goals and users. We then choose a sensible architecture, build in small, testable steps and keep you informed throughout."
+   ],
+   "ch": [
+    [
+     "An outdated or slow website",
+     "Ageing sites lose visitors and are hard to update or secure."
+    ],
+    [
+     "Poor mobile experience",
+     "Many customers browse on phones, and clumsy layouts cost enquiries."
+    ],
+    [
+     "Disconnected systems",
+     "Forms, CRMs and payment tools that do not talk to each other create manual work."
+    ],
+    [
+     "Unclear ownership after launch",
+     "Without maintenance, sites slow down, break or fall behind on security."
+    ]
+   ],
+   "ap": [
+    [
+     "Requirements and discovery",
+     "We map goals, audiences, content and constraints."
+    ],
+    [
+     "UX and design",
+     "We plan journeys and design responsive, accessible interfaces."
+    ],
+    [
+     "Development",
+     "We build front end and back end in short, reviewable iterations."
+    ],
+    [
+     "Testing",
+     "We test performance, accessibility, security and devices."
+    ],
+    [
+     "Deployment",
+     "We launch with monitoring, backups and a rollback plan."
+    ],
+    [
+     "Maintenance",
+     "We provide updates, fixes and ongoing improvements."
+    ]
+   ],
+   "sol": [
+    [
+     "Custom website development",
+     "Fast, secure sites built to your brand."
+    ],
+    [
+     "Business and corporate websites",
+     "Clear structure for services, teams and enquiries."
+    ],
+    [
+     "E-commerce development",
+     "Product catalogues, baskets and checkout integration."
+    ],
+    [
+     "Responsive UI/UX design",
+     "Layouts that adapt from phone to desktop."
+    ],
+    [
+     "Web application development",
+     "Portals, dashboards and internal tools."
+    ],
+    [
+     "Android and iOS apps",
+     "Mobile apps for customers or staff."
+    ],
+    [
+     "API and third-party integrations",
+     "Connect CRMs, payment tools and other systems."
+    ],
+    [
+     "Performance optimisation",
+     "Faster load times and better Core Web Vitals."
+    ],
+    [
+     "Maintenance and improvements",
+     "Updates, monitoring and ongoing support."
+    ],
+    [
+     "Technical SEO and accessibility",
+     "Crawlable, inclusive pages built in from the start."
+    ]
+   ],
+   "feat": [
+    "Mobile-first, responsive layouts",
+    "Accessible interface components",
+    "Secure forms and data handling",
+    "Clean, maintainable code",
+    "Analytics-ready pages",
+    "Content you can update yourself"
+   ],
+   "ben": [
+    "A clearer, more credible online presence",
+    "Smoother journeys on any device",
+    "Less manual work through integrations",
+    "Easier maintenance, fewer surprises",
+    "A foundation that can grow with you",
+    "Better readiness for search engines"
+   ],
+   "tech": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "Supabase",
+    "REST and GraphQL APIs",
+    "React Native or Flutter"
+   ],
+   "uc": [
+    [
+     "UK professional-services firm",
+     "A new website with service pages and an enquiry form saved securely."
+    ],
+    [
+     "US online retailer",
+     "A faster storefront with checkout integration and clearer product pages."
+    ],
+    [
+     "Multi-site operator",
+     "A customer portal and mobile app for bookings and account updates."
+    ]
+   ],
+   "cs": {
+    "t": "Business Website and Mobile Experience",
+    "p": "A fictional professional-services firm has an ageing site that is slow on phones and hard to update.",
+    "s": "A mobile-first website with clear service pages, an enquiry form saved to a database and a companion mobile app.",
+    "o": "Expected benefits (illustrative): easier navigation, clearer enquiry routes and simpler updates.",
+    "f": [
+     "Mobile-first and accessible",
+     "Enquiry form with server-side validation",
+     "Simple content updates"
+    ]
+   },
+   "faq": [
+    [
+     "Do you build both websites and mobile apps?",
+     "Yes, separately or together, depending on what your customers need."
+    ],
+    [
+     "Can you improve our existing website?",
+     "Usually. We review it first and recommend whether to improve it or rebuild parts of it."
+    ],
+    [
+     "How long does a project take?",
+     "It depends on scope. We agree a plan and milestones before work begins."
+    ],
+    [
+     "Will you maintain the site after launch?",
+     "Yes. Ongoing maintenance and improvement plans are available."
+    ],
+    [
+     "Do you handle accessibility and SEO?",
+     "We build with both in mind, but we do not guarantee search rankings."
+    ]
+   ],
+   "rel": [
+    "ai-workflow-automation",
+    "digital-marketing",
+    "merchant-account-management"
+   ],
+   "note": ""
+  },
+  "ai-workflow-automation": {
+   "k": "ai",
+   "icon": "Hub",
+   "title": "Agentic AI, Workflow and Automation",
+   "nav": "Agentic AI and Workflow Automation",
+   "short": "AI assistants and automated workflows that reduce repetitive work, with people in control.",
+   "lead": "Practical AI and automation that take on repetitive tasks and support your team, with clear limits and human oversight.",
+   "intro": [
+    "We help businesses apply AI where it genuinely helps: answering routine questions, processing documents, moving data between systems and preparing work for human review.",
+    "We design each workflow with clear boundaries, approval steps and monitoring, so people stay in control and you can see what the system is doing."
+   ],
+   "ch": [
+    [
+     "Repetitive manual tasks",
+     "Staff spend hours copying, checking and re-entering information."
+    ],
+    [
+     "Inconsistent processes",
+     "Work is handled differently depending on who does it."
+    ],
+    [
+     "Slow customer responses",
+     "Routine questions queue up behind complex ones."
+    ],
+    [
+     "Uncertainty about AI risk",
+     "Teams worry about accuracy, data handling and loss of control."
+    ]
+   ],
+   "ap": [
+    [
+     "Identify",
+     "Find processes where automation is genuinely useful."
+    ],
+    [
+     "Define boundaries",
+     "Agree what the system may do and where people approve."
+    ],
+    [
+     "Design",
+     "Plan data flow, integrations and escalation paths."
+    ],
+    [
+     "Build and test",
+     "Develop and test on realistic cases, including edge cases."
+    ],
+    [
+     "Deploy with oversight",
+     "Launch with logging, review steps and access controls."
+    ],
+    [
+     "Monitor and improve",
+     "Track quality, fix issues and refine over time."
+    ]
+   ],
+   "sol": [
+    [
+     "AI-powered business assistants",
+     "Assistants that answer questions and draft responses."
+    ],
+    [
+     "Agentic AI solutions",
+     "Agents that carry out defined, bounded tasks."
+    ],
+    [
+     "Workflow automation",
+     "Automate multi-step processes end to end."
+    ],
+    [
+     "Repetitive task automation",
+     "Remove copy, paste and re-entry work."
+    ],
+    [
+     "Business process integration",
+     "Connect the tools your team already uses."
+    ],
+    [
+     "AI-enabled customer support",
+     "Handle common questions and hand over complex ones."
+    ],
+    [
+     "Data processing and reporting",
+     "Automate collection, cleaning and reporting."
+    ],
+    [
+     "API and application integrations",
+     "Link systems through APIs and webhooks."
+    ],
+    [
+     "Human approval and oversight",
+     "Review steps where decisions matter."
+    ],
+    [
+     "Monitoring, security and reliability",
+     "Logging, access control and quality checks."
+    ]
+   ],
+   "feat": [
+    "Defined workflow boundaries",
+    "Human approval steps",
+    "Activity logs and audit trails",
+    "Escalation to a person",
+    "Role-based access",
+    "Testing on realistic cases"
+   ],
+   "ben": [
+    "Less repetitive manual work",
+    "More consistent handling of routine tasks",
+    "Faster first responses",
+    "Clear visibility of what the system does",
+    "Staff free for higher-value work",
+    "Safer adoption of AI"
+   ],
+   "tech": [
+    "Large language model APIs",
+    "Workflow orchestration tools",
+    "Python",
+    "Node.js",
+    "Vector search",
+    "Queues and schedulers",
+    "Monitoring and logging",
+    "REST APIs and webhooks"
+   ],
+   "uc": [
+    [
+     "US services firm",
+     "Extracting key fields from incoming documents for staff review."
+    ],
+    [
+     "UK online retailer",
+     "A support assistant that answers common questions and hands over complex ones."
+    ],
+    [
+     "Operations team",
+     "Automated weekly reporting assembled from several systems."
+    ]
+   ],
+   "cs": {
+    "t": "AI Agent and Workflow Automation",
+    "p": "A fictional operations team spends hours reading documents and re-typing details into other systems.",
+    "s": "An AI-assisted workflow extracts key fields, checks rules and sends anything uncertain to a human reviewer.",
+    "o": "Expected benefits (illustrative): less repetitive data entry and clearer hand-overs.",
+    "f": [
+     "Document intake and extraction",
+     "Human review and escalation",
+     "Activity log"
+    ]
+   },
+   "faq": [
+    [
+     "Will AI make decisions without a person?",
+     "Not where a decision matters. We build approval and escalation steps in."
+    ],
+    [
+     "How accurate will it be?",
+     "Accuracy depends on the task and data. We test on realistic cases and monitor quality after launch."
+    ],
+    [
+     "How is our data handled?",
+     "We agree what data is used, where it is processed and who has access before building."
+    ],
+    [
+     "Can it work with our existing tools?",
+     "Usually, through APIs and integrations. We check feasibility first."
+    ],
+    [
+     "Is AI right for every process?",
+     "No. We tell you when automation is not worthwhile."
+    ]
+   ],
+   "rel": [
+    "web-mobile-development",
+    "digital-marketing",
+    "merchant-account-management"
+   ],
+   "note": "We do not promise guaranteed results or fully autonomous decision-making. Where a decision matters, a person reviews it."
+  },
+  "merchant-account-management": {
+   "k": "pay",
+   "icon": "AccountBalanceWallet",
+   "title": "Merchant Account Management",
+   "nav": "Merchant Account Management",
+   "short": "Operational support for merchant accounts and payment workflows, alongside your payment provider.",
+   "lead": "Hands-on support for onboarding, payment workflows and reporting, working alongside your licensed payment provider.",
+   "intro": [
+    "We support businesses with the practical side of taking card and online payments: preparing onboarding information, coordinating with providers, connecting gateways to websites and keeping payment operations organised.",
+    "We are not a bank, payment processor or licensed financial institution. Approval, underwriting, settlement and compliance decisions always rest with your provider."
+   ],
+   "ch": [
+    [
+     "Confusing onboarding",
+     "Applications ask for detailed documents and answers."
+    ],
+    [
+     "Integration gaps",
+     "Checkout flows and gateways need careful setup and testing."
+    ],
+    [
+     "Hard-to-read reporting",
+     "Transaction data is spread across dashboards and files."
+    ],
+    [
+     "Disputes and failed payments",
+     "Chargebacks and failures need clear processes and follow-up."
+    ]
+   ],
+   "ap": [
+    [
+     "Review",
+     "Understand your business model and payment needs."
+    ],
+    [
+     "Prepare",
+     "Organise the documents and information your provider requests."
+    ],
+    [
+     "Coordinate",
+     "Support communication with your chosen provider."
+    ],
+    [
+     "Integrate",
+     "Connect gateways and checkout flows, then test them."
+    ],
+    [
+     "Operate",
+     "Support monitoring, reporting and reconciliation."
+    ],
+    [
+     "Improve",
+     "Review failures, disputes and workflows regularly."
+    ]
+   ],
+   "sol": [
+    [
+     "Merchant account onboarding support",
+     "Prepare and organise application information."
+    ],
+    [
+     "Payment gateway integration",
+     "Connect gateways to your site or checkout."
+    ],
+    [
+     "Payment workflow coordination",
+     "Align checkout, orders and payment steps."
+    ],
+    [
+     "Transaction monitoring and reporting",
+     "Clear views of payment activity."
+    ],
+    [
+     "Reconciliation support",
+     "Match payments to orders and payouts."
+    ],
+    [
+     "Chargeback and dispute processes",
+     "Set up processes and organise evidence."
+    ],
+    [
+     "Payment failure analysis",
+     "Find patterns behind declined or failed payments."
+    ],
+    [
+     "Fraud prevention coordination",
+     "Work with your provider’s tools and rules."
+    ],
+    [
+     "Payment operations reporting",
+     "Regular summaries for your team."
+    ],
+    [
+     "Ongoing account and operational support",
+     "Help with everyday questions and changes."
+    ]
+   ],
+   "feat": [
+    "Clear onboarding checklists",
+    "Tested checkout integrations",
+    "Organised reporting",
+    "Documented dispute processes",
+    "Coordination with your provider",
+    "Ongoing operational support"
+   ],
+   "ben": [
+    "A smoother path through onboarding",
+    "Fewer delays from missing information",
+    "A clearer view of payment activity",
+    "More consistent handling of disputes",
+    "Less time spent chasing issues",
+    "Better understanding of responsibilities"
+   ],
+   "tech": [
+    "Payment gateway APIs",
+    "Webhooks",
+    "Reporting dashboards",
+    "CSV and spreadsheet tooling",
+    "Reconciliation workflows",
+    "Secure document handling"
+   ],
+   "uc": [
+    [
+     "UK online shop",
+     "Preparing onboarding information and connecting a gateway to checkout."
+    ],
+    [
+     "US subscription business",
+     "Organised monitoring of failed payments and follow-up processes."
+    ],
+    [
+     "Service business",
+     "Monthly payment reports and reconciliation support."
+    ]
+   ],
+   "cs": {
+    "t": "Checkout and Payment Operations Setup",
+    "p": "A fictional online shop struggles to prepare its application and to track failed payments.",
+    "s": "An onboarding checklist, a tested gateway integration and a simple monthly payment report.",
+    "o": "Expected benefits (illustrative): fewer application delays and clearer payment reporting.",
+    "f": [
+     "Onboarding checklist",
+     "Tested checkout integration",
+     "Monthly reporting"
+    ]
+   },
+   "faq": [
+    [
+     "Can you guarantee approval?",
+     "No. Approval is decided by the provider. We help you prepare a complete, accurate application."
+    ],
+    [
+     "Do you process payments?",
+     "No. Payments are processed by your chosen provider."
+    ],
+    [
+     "Are you a licensed financial institution?",
+     "No. We provide operational and integration support only."
+    ],
+    [
+     "Can you connect payments to our website?",
+     "Yes, as part of integration work."
+    ],
+    [
+     "Can you help with chargebacks?",
+     "We can help you set up processes and organise evidence. Outcomes are decided by the card networks and your provider."
+    ]
+   ],
+   "rel": [
+    "web-mobile-development",
+    "ai-workflow-automation",
+    "digital-marketing"
+   ],
+   "note": "This is operational support, not a regulated financial service. We cannot guarantee merchant account approval, rates or acceptance."
+  },
+  "digital-marketing": {
+   "k": "mkt",
+   "icon": "QueryStats",
+   "title": "Digital Marketing",
+   "nav": "Digital Marketing",
+   "short": "Search, content and campaigns built around measurable goals.",
+   "lead": "Marketing planned around clear goals, delivered consistently and reported honestly.",
+   "intro": [
+    "We help businesses become easier to find and easier to choose: improving search visibility, creating useful content, running campaigns and measuring what works.",
+    "We plan for your audience in the UK, the US or both, and report in plain language so you can see what is happening and why."
+   ],
+   "ch": [
+    [
+     "Hard to find online",
+     "Customers cannot find you for the searches that matter."
+    ],
+    [
+     "Unclear what works",
+     "Spend and effort are not tied to enquiries."
+    ],
+    [
+     "Weak landing pages",
+     "Visitors arrive but do not take the next step."
+    ],
+    [
+     "Inconsistent content",
+     "Posting is irregular and lacks a clear strategy."
+    ]
+   ],
+   "ap": [
+    [
+     "Audit",
+     "Review your website, content, search presence and current activity."
+    ],
+    [
+     "Strategy",
+     "Set objectives, audiences, priorities and measures."
+    ],
+    [
+     "Implementation",
+     "Carry out SEO, content, campaigns and page improvements."
+    ],
+    [
+     "Measurement",
+     "Track the metrics agreed at the start."
+    ],
+    [
+     "Optimisation",
+     "Test, learn and refine each month."
+    ]
+   ],
+   "sol": [
+    [
+     "Search engine optimisation",
+     "Improve how your site appears in search."
+    ],
+    [
+     "Technical SEO",
+     "Fix crawling, speed and structure issues."
+    ],
+    [
+     "Content strategy",
+     "Plan useful content around customer questions."
+    ],
+    [
+     "Social media marketing",
+     "Consistent, on-brand posting and engagement."
+    ],
+    [
+     "Paid campaign management",
+     "Set up, monitor and refine paid campaigns."
+    ],
+    [
+     "Landing page optimisation",
+     "Clearer pages that guide visitors."
+    ],
+    [
+     "Conversion rate optimisation",
+     "Test changes that help visitors act."
+    ],
+    [
+     "Analytics and performance reporting",
+     "Plain-language reports on what is working."
+    ],
+    [
+     "Local and international SEO",
+     "Visibility for local and overseas audiences."
+    ],
+    [
+     "Strategy for UK and US audiences",
+     "Messaging and tracking for each market."
+    ]
+   ],
+   "feat": [
+    "Agreed goals and measures",
+    "Technical and content audits",
+    "Clear monthly reporting",
+    "Landing page testing",
+    "Audience-specific messaging",
+    "Transparent activity logs"
+   ],
+   "ben": [
+    "Better visibility for relevant searches",
+    "Clearer insight into what drives enquiries",
+    "More focused marketing effort",
+    "Pages that guide visitors to act",
+    "Consistent, on-brand content",
+    "Marketing that supports wider goals"
+   ],
+   "tech": [
+    "Google Search Console",
+    "Google Analytics",
+    "Google Ads",
+    "Meta Ads Manager",
+    "Tag management",
+    "Reporting dashboards",
+    "Site audit tools"
+   ],
+   "uc": [
+    [
+     "UK local-service business",
+     "Local SEO and a clearer service-page structure."
+    ],
+    [
+     "US online retailer",
+     "Product-page optimisation and paid campaign management."
+    ],
+    [
+     "Business serving both markets",
+     "Separate messaging and tracking for UK and US audiences."
+    ]
+   ],
+   "cs": {
+    "t": "Digital Marketing and Business Growth",
+    "p": "A fictional local business relies on word of mouth and wants steadier online enquiries.",
+    "s": "A technical SEO review, content built around customer questions and improvements to key pages, with a simple measurement framework.",
+    "o": "Measurement framework: track enquiries, organic visits and page-level conversion monthly. No results are claimed.",
+    "f": [
+     "Technical SEO review",
+     "Content and social calendar",
+     "Monthly reporting"
+    ]
+   },
+   "faq": [
+    [
+     "How soon will we see results?",
+     "SEO and content take time. We agree realistic expectations and measures at the start."
+    ],
+    [
+     "Do you guarantee first-page rankings?",
+     "No. Nobody can honestly guarantee that."
+    ],
+    [
+     "Can you manage paid ads?",
+     "Yes, including setup, monitoring and reporting."
+    ],
+    [
+     "Do you work with our existing website?",
+     "Yes, and we can improve it where it limits results."
+    ],
+    [
+     "How do you report?",
+     "Plain-language monthly reports covering activity, performance and next steps."
+    ]
+   ],
+   "rel": [
+    "web-mobile-development",
+    "ai-workflow-automation",
+    "merchant-account-management"
+   ],
+   "note": "We do not guarantee rankings, traffic or sales. Results depend on your market, competition, budget and timing."
+  }
+ },
+ "PR": [
+  {
+   "id": "rehas",
+   "k": "web",
+   "t": "Rehas.in",
+   "service": "Web Development",
+   "relatedSlug": "web-mobile-development",
+   "websiteUrl": "https://rehas.in/",
+   "imageSrc": "/assets/images/rehas-logo.svg",
+   "imageAlt": "Rehas.in logo",
+   "description": "Rehas.in is a digital wellness and spiritual platform bringing together ancient wisdom and modern wellness practices. Its services include holistic healing, meditation, astrology, horoscope readings, and spiritual guidance. The website presents these services and personalized wellness experiences in an accessible digital format. Grace Technologies contributed to the web development of the platform, helping organize its content and digital experiences into a professional website for people exploring traditional practices and wellness.",
+   "p": "Detailed case study coming soon.",
+   "s": "Detailed case study coming soon.",
+   "f": [
+    "Holistic wellness services",
+    "Meditation and astrology content",
+    "Accessible spiritual guidance"
+   ],
+   "o": "A professional digital presence for Rehas.in's wellness and spiritual services.",
+   "caseStudySections": [
+    {
+     "heading": "Project Overview",
+     "description": "Rehas.in combines wellness and spiritual services in one accessible digital platform."
+    },
+    {
+     "heading": "Content and Experience",
+     "description": "Grace Technologies organized the platform's services, guidance and content into a clear website experience."
+    },
+    {
+     "heading": "Digital Wellness Platform",
+     "description": "The project presents traditional practices and modern wellness services through a professional online presence."
+    }
+   ]
+  },
+  {
+   "id": "flappy",
+   "k": "pay",
+   "t": "Flappy",
+   "service": "Merchant Account Management",
+   "relatedSlug": "merchant-account-management",
+   "imageSrc": "/assets/images/flappy-logo.jpg",
+   "imageAlt": "Flappy shopping bag logo mark",
+   "description": "Flappy is an e-commerce garments business, with a project focus on merchant account management. Grace Technologies supported the business from the ground up as it established its digital commerce presence. The work brought together the needs of a garments business operating through e-commerce and merchant account management. This project description reflects the supplied scope: support during early development and the establishment of Flappy's online commerce presence, without assuming particular platform features, transaction volumes, or business results.",
+   "p": "Establish merchant account management for an emerging garments e-commerce business.",
+   "s": "Grace Technologies supported Flappy from the ground up as its digital commerce presence was established.",
+   "f": [
+    "Project Overview",
+    "E-commerce in Garments",
+    "Support from the Ground Up"
+   ],
+   "o": "A structured foundation for Flappy's garments e-commerce and merchant account operations.",
+   "caseStudySections": [
+    {
+     "heading": "Project Overview",
+     "description": "Flappy is an e-commerce business in the garments sector. The project is focused on merchant account management."
+    },
+    {
+     "heading": "E-commerce in Garments",
+     "description": "Flappy operates in the garments sector and serves customers through e-commerce."
+    },
+    {
+     "heading": "Support from the Ground Up",
+     "description": "Grace Technologies supported Flappy from the ground up as it established its digital commerce presence."
+    }
+   ]
+  }
+ ],
+ "IND": [
+  [
+   "ShoppingBag",
+   "Retail and e-commerce"
+  ],
+  [
+   "Business",
+   "Professional services"
+  ],
+  [
+   "LocalHospital",
+   "Healthcare and wellbeing"
+  ],
+  [
+   "School",
+   "Education and training"
+  ],
+  [
+   "Hotel",
+   "Hospitality and travel"
+  ],
+  [
+   "Apartment",
+   "Property and real estate"
+  ],
+  [
+   "LocalShipping",
+   "Logistics and supply"
+  ],
+  [
+   "Language",
+   "Digital-first start-ups"
+  ]
+ ]
+}
