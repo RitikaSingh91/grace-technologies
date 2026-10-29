@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useCallback, useContext, useMemo, useRef, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import EnquiryModal from '@/components/EnquiryModal/EnquiryModal';
 
 interface EnquiryContextValue {
@@ -14,6 +14,10 @@ export const useEnquiry = (): EnquiryContextValue => useContext(EnquiryContext);
 export default function EnquiryProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState({ open: false, service: '' });
   const triggerRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    setState({ open: true, service: '' });
+  }, []);
 
   const open = useCallback((service?: string, trigger?: HTMLElement | null) => {
     triggerRef.current = trigger ?? null;

@@ -65,9 +65,12 @@
 .form > button {
   width: fit-content;
   min-width: 9rem;
+  min-height: 2.45rem;
   justify-self: start;
-  padding-block: 0.65rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 6px;
   font-size: 0.88rem;
+  line-height: 1;
 }
 
 .field {
