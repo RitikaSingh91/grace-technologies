@@ -9,18 +9,15 @@ export default function PartnershipSection() {
   return (
     <section id="partner" className="sec">
       <div className="wrap two">
-        <div className="rv art2">
-          <svg viewBox="0 0 480 330" role="img" aria-label="Illustration of two linked organisations collaborating">
-            <circle className="ob" cx="170" cy="165" r="110" />
-            <circle className="ow ost" cx="310" cy="165" r="110" />
-            <path className="oi" d="M240 70a110 110 0 0 1 0 190 110 110 0 0 1 0-190z" opacity=".0" />
-            <circle className="oi" cx="240" cy="165" r="38" />
-            <path className="ol" d="M226 165l10 10 20-22" />
-            <rect className="oi" x="104" y="140" width="84" height="12" rx="6" />
-            <rect className="oi" x="104" y="164" width="56" height="10" rx="5" opacity=".7" />
-            <rect className="ob" x="304" y="140" width="84" height="12" rx="6" />
-            <rect className="os" x="304" y="164" width="56" height="10" rx="5" />
-          </svg>
+        <div className="rv art2" aria-label="Grace Technologies and Ank Square partnership">
+          <div className="partnerCircles">
+            <div className="partnerCircle graceCircle">
+              <img src="/assets/images/logo.svg" alt="Grace Technologies logo" />
+            </div>
+            <div className="partnerCircle ankCircle">
+              <img src="/images/ank-square-logo.svg" alt="Ank Square logo" />
+            </div>
+          </div>
         </div>
         <div className="rv">
           <span className="eyebrow">Our partnership</span>

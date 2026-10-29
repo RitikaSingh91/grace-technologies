@@ -24,18 +24,47 @@
   text-transform: uppercase;
 }
 
-.art2 svg {
+.partnerCircles {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: auto;
+  min-height: 18rem;
   filter: drop-shadow(0 20px 40px var(--color-glow-shadow));
 }
 
-.ob { fill: var(--color-illu-line); }
-.ow { fill: var(--color-white); }
-.ost { stroke: var(--color-illu-line); stroke-width: 3; }
-.oi { fill: var(--color-illu-soft); }
-.ol { fill: none; stroke: var(--color-accent-1); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
-.os { fill: var(--color-illu-surface); }
+.partnerCircle {
+  display: grid;
+  place-items: center;
+  width: clamp(11rem, 19vw, 14rem);
+  aspect-ratio: 1;
+  border: 3px solid var(--color-illu-line);
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--color-card);
+}
+
+.graceCircle {
+  transform: translateX(12%);
+  background: var(--color-illu-soft);
+}
+
+.ankCircle {
+  transform: translateX(-12%);
+  background: var(--color-white);
+}
+
+.partnerCircle img {
+  width: 62%;
+  height: 62%;
+  object-fit: contain;
+}
+
+.graceCircle img {
+  width: 48%;
+  height: 48%;
+}
 
 .row {
   display: flex;
@@ -82,5 +111,13 @@
 @media (max-width: 900px) {
   .two {
     grid-template-columns: 1fr;
+  }
+
+  .partnerCircles {
+    min-height: 16rem;
+  }
+
+  .partnerCircle {
+    width: min(42vw, 12rem);
   }
 }
