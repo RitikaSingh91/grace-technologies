@@ -102,12 +102,17 @@
   width: min(100%, 28rem);
   margin: auto auto 0;
   padding-top: 0.8rem;
+  align-items: stretch;
 }
 
 .actionButton {
   justify-content: center;
+  align-items: center;
   width: 100%;
+  min-height: 2.75rem;
   box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
 }
 
 .related {

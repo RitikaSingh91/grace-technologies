@@ -1,42 +1,109 @@
-.placeholder {
-  display: grid;
-  gap: 0.7rem;
-  align-content: start;
-  min-height: 11rem;
-  padding: 1.4rem;
-  border: 1.5px dashed var(--color-line);
-  border-radius: var(--radius-lg);
-  color: var(--color-muted);
+.grid {
+  row-gap: 1.25rem;
 }
 
-.placeholder svg {
-  width: 2rem;
-  height: 2rem;
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 20rem;
+  padding: clamp(1.35rem, 2vw, 1.75rem);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xl);
+  background: var(--color-card);
+  box-shadow: 0 18px 45px var(--color-glow-shadow);
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--color-accent-2);
+  box-shadow: 0 24px 55px var(--color-glow-shadow);
+}
+
+.quoteIcon {
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-bottom: 0.85rem;
   color: var(--color-accent-2);
 }
 
-.bar {
+.quote {
+  margin: 0 0 1rem;
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.75;
+  text-align: justify;
+}
+
+.rating {
+  margin-bottom: 1.15rem;
+  color: var(--color-accent-2);
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+}
+
+.client {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  gap: 0.85rem;
+  align-items: center;
+  margin-top: auto;
+}
+
+.avatar {
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border: 1px solid var(--color-accent-2);
+  border-radius: 50%;
+  background: var(--gradient-accent);
+  color: var(--color-bg);
+  font-weight: 800;
+}
+
+.name {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.role {
+  margin: 0.2rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.service {
   display: block;
-  height: 0.6rem;
-  border-radius: 0.3rem;
+  margin-top: 0.35rem;
+  color: var(--color-accent-1);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.sampleLabel {
+  align-self: flex-start;
+  margin-top: 0.85rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-pill);
   background: var(--tint-10);
+  color: var(--color-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
-.long {
-  width: 92%;
-}
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
 
-.medium {
-  width: 78%;
-}
-
-.short {
-  width: 55%;
-}
-
-.action {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.6rem;
+  .card:hover {
+    transform: none;
+  }
 }

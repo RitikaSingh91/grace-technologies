@@ -1,10 +1,9 @@
 import CardGrid from '@/components/CardGrid/CardGrid';
 import Container from '@/components/Container/Container';
-import EnquireButton from '@/components/EnquireButton/EnquireButton';
-import Icon from '@/components/Icon/Icon';
-import Reveal from '@/components/Reveal/Reveal';
 import Section from '@/components/Section/Section';
 import SectionHead from '@/components/SectionHead/SectionHead';
+import { TESTIMONIALS } from '@/data/testimonials';
+import TestimonialCard from './TestimonialCard';
 import styles from './TestimonialsSection.module.css';
 
 export default function TestimonialsSection() {
@@ -13,24 +12,15 @@ export default function TestimonialsSection() {
       <Container>
         <SectionHead
           id="testimonials-title"
-          eyebrow="Testimonials"
-          title="Client feedback"
-          text="We publish testimonials only with the client’s permission, and we never invent them."
+          eyebrow="TESTIMONIALS"
+          title="What Our Clients Say"
+          text="Discover how our technology solutions help businesses build, innovate, and grow."
         />
-        <CardGrid columns={3}>
-          {[0, 1, 2].map((n) => (
-            <Reveal key={n} className={styles.placeholder}>
-              <Icon name="FormatQuote" />
-              <strong>Client feedback will appear here</strong>
-              <span className={`${styles.bar} ${styles.long}`} />
-              <span className={`${styles.bar} ${styles.medium}`} />
-              <span className={`${styles.bar} ${styles.short}`} />
-            </Reveal>
+        <CardGrid columns={3} className={styles.grid}>
+          {TESTIMONIALS.map((testimonial) => (
+            <TestimonialCard key={testimonial.id} testimonial={testimonial} />
           ))}
         </CardGrid>
-        <div className={styles.action}>
-          <EnquireButton>Enquire Now</EnquireButton>
-        </div>
       </Container>
     </Section>
   );

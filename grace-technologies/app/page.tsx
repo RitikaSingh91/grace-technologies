@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import AboutSection from '@/components/AboutSection/AboutSection';
+import ClientsSection from '@/components/ClientsSection/ClientsSection';
 import ContactSection from '@/components/ContactSection/ContactSection';
 import Hero from '@/components/Hero/Hero';
 import PartnershipSection from '@/components/PartnershipSection/PartnershipSection';
 import ProjectsSection from '@/components/ProjectsSection/ProjectsSection';
 import ServicesSection from '@/components/ServicesSection/ServicesSection';
+import TestimonialsSection from '@/components/TestimonialsSection/TestimonialsSection';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/data/site';
 
 export const metadata: Metadata = {
@@ -20,6 +22,8 @@ export default function HomePage() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <ClientsSection />
+      <TestimonialsSection />
       <PartnershipSection />
       <ContactSection />
     </>
